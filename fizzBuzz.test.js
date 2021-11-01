@@ -8,6 +8,9 @@ describe('FizzBuzz', function() {
   it('When passed a number that is a multiple of 3, the program returns the message "Fizz"', function() {
     expect(fizzBuzz(3)).toEqual("Fizz")
   })
+  it('When passed another number that is a multiple of 3, the program returns the message "Fizz"', function() {
+    expect(fizzBuzz(9)).toEqual("Fizz")
+  })
 
   it('When passed a number that is a multiple of 5, the program returns the message "Buzz"', function() {
     expect(fizzBuzz(5)).toEqual("Buzz");
