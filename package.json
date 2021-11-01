@@ -1,0 +1,22 @@
+{
+  "name": "fizzbuzzwithlaura",
+  "version": "1.0.0",
+  "description": "Pair on FizzBuzz Laura and Carly",
+  "main": "fizzBuzz.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlyJ88/FizzBuzzWithLaura.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlyJ88/FizzBuzzWithLaura/issues"
+  },
+  "homepage": "https://github.com/CarlyJ88/FizzBuzzWithLaura#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
