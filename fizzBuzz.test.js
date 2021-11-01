@@ -26,6 +26,18 @@ describe('FizzBuzz', function() {
     expect(fizzBuzz(15)).toEqual("FizzBuzz");
   })
 
+  it('When passed another number that is a multiple of both 3 and 5, the program ignores the previous 2 rules and returns the message "FizzBuzz"', function() {
+    expect(fizzBuzz(30)).toEqual("FizzBuzz");
+  })
+
+  it('When passed another number that is a multiple of both 3 and 5, the program ignores the previous 2 rules and returns the message "FizzBuzz"', function() {
+    expect(fizzBuzz(45)).toEqual("FizzBuzz");
+  })
+
+  it('When passed another number that is a multiple of both 3 and 5, the program ignores the previous 2 rules and returns the message "FizzBuzz"', function() {
+    expect(fizzBuzz(135)).toEqual("FizzBuzz");
+  })
+
   // it('In all other cases, the program simply returns the given number.', function() {
 
   // })
